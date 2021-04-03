@@ -4,12 +4,11 @@
 * python: 3.6.8
 * django: 3.1.7
 
-## Running Instructions
+## Setup
 
-* cd into project root folder
-* `source newenv/bin/activate`
-* `pip install -r requirements.txt`
-* `python manage.py migrate`
+* from root folder run: `./setup.sh`
+
+## Run Tests
 * `python manage.py test matcher`
 
 ## Notes:
